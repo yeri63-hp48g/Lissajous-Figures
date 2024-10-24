@@ -1,0 +1,56 @@
+<< 
+  @ k = key pressed
+  @ dT = change in time used to shift signal
+  @ a = numerator of signal ratio
+  @ b = denominator of signal ratio
+
+  0 0 1 1 -> k dT a b
+  <<
+    DO
+      @ Display button menu.
+      { { "a+" }
+        { "a-" }
+        { "b+" }
+        { "b-" }
+        { "Draw" }
+        { "Quit" } } TMENU
+
+      CLLCD
+      "        Lissajous
+                Figures" 2 DISP
+      "          " a + ":" + b + 5 
+      7 FREEZE
+
+      @ Get ratio value from user.
+      DO
+        -1 WAIT 
+        'k' STO          
+        CASE 
+          'k==11.1' THEN 'a' INCR END
+          'k==12.1' THEN IF 'a>1' THEN 'a' DECR END END
+          'k==13.1' THEN 'b' INCR END
+          'k==14.1' THEN IF 'b>1' THEN 'b' DECR END END
+          'k==16.1' THEN TEXT { PPAR EQ } PURGE CLEAR 2.01 TMENU KILL END
+        END
+
+      UNTIL k END
+
+      @ Generate moving Lissajous Figure.
+      IF 'k==15.1' THEN
+        DO
+          { PICT PPAR } PURGE RAD
+          PARAMETRIC
+          { T 0 6.29 } INDEP
+          '3*SIN(b*T+dT)+i*3*SIN(a*T)' STEQ
+          DRAW
+          .2 WAIT
+          'dT+.08' EVAL 'dT' STO
+        UNTIL KEY END
+
+        TEXT
+      END
+
+    UNTIL 'a>10 OR b>10' END
+  >>
+  { PPAR EQ } PURGE CLEAR 2.01 TMENU KILL
+>>
