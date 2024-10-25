@@ -10,6 +10,6 @@ To give depth to these normally static images, this program slowly shifts the po
 
 The application begins by displaying an initial a:b ratio, with a menu to add or delete either value. Pressing the Draw button then creates the Lissajous Figure created by this ratio, and slowly rotates it. This continues until any key is pressed, to return back to the ratio screen, where a new value can be entered. 
 
-Here's an example from Wikimedia.org showing some of the possible Lissajous Figures you'll be able to observe within the app based on ratio and degrees shifted between the signals. They used radians to indicate shift where 180 deg = pi radians.
+Here's an example from Wikimedia.org showing some of the possible Lissajous Figures you'll be able to observe within the app for a given ratio and degrees shifted between the signals.
 
 ![Lissajous Patterns](https://github.com/yeri63-hp48g/Lissajous-Figures/blob/main/Lissajous_patterns.png)
