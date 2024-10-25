@@ -10,10 +10,10 @@ To give depth to these normally static images, this program slowly shifts the po
 
 The application begins by displaying an initial a:b ratio, with a menu to add or delete either value. Pressing the Draw button then creates the Lissajouse Figure created by this ratio, and slowly rotates it. This continues until any key is pressed, to return back to the ratio screen, where a new value can be entered. 
 
-| Shift   | 1:1 Ratio | 
+| Shift   | 1:1 Ratio Lissajous Figure | 
 | :-:     | :-:     |
-| 0 Deg   |     | 
+| 0 Deg   | ![0deg](https://github.com/yeri63-hp48g/Lissajous-Figures/blob/main/ratio1-1_fig1.png)  | 
 | 90 Deg  |     |
 | 180 Deg |     |
 | 270 Deg |     |
-| 360 Deg |     |
+| 360 Deg | ![360deg](https://github.com/yeri63-hp48g/Lissajous-Figures/blob/main/ratio1-1_fig1.png) |
