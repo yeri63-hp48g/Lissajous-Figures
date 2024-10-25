@@ -12,4 +12,4 @@ The application begins by displaying an initial a:b ratio, with a menu to add or
 
 Here's an example from Wikimedia.org showing some of the possible Lissajous Figures you'll be able to observe within the app based on ratio and degrees shifted between the signals. They used radians to indicate shift where 180 deg = pi radians.
 
-![Lissajous Relations](https://github.com/yeri63-hp48g/Lissajous-Figures/blob/main/Lissajous_relaciones.png)
+![Lissajous Patterns](https://github.com/yeri63-hp48g/Lissajous-Figures/blob/main/Lissajous_patterns.png)
