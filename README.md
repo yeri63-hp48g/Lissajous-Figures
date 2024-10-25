@@ -12,8 +12,8 @@ The application begins by displaying an initial a:b ratio, with a menu to add or
 
 | Shift   | 1:1 Ratio Lissajous Figure | 
 | :-:     | :-:     |
-| 0 Deg   | ![0deg](https://github.com/yeri63-hp48g/Lissajous-Figures/blob/main/ratio1-1_fig1.png)  | 
-| 90 Deg  |     |
-| 180 Deg |     |
-| 270 Deg |     |
-| 360 Deg | ![360deg](https://github.com/yeri63-hp48g/Lissajous-Figures/blob/main/ratio1-1_fig1.png) |
+| 0 Deg   | ![0deg](https://github.com/yeri63-hp48g/Lissajous-Figures/blob/main/ratio1-1_fig1.png)   | 
+| 90 Deg  | ![90deg](https://github.com/yeri63-hp48g/Lissajous-Figures/blob/main/ratio1-1_fig2.png)   |
+| 180 Deg | ![180deg](https://github.com/yeri63-hp48g/Lissajous-Figures/blob/main/ratio1-1_fig3.png)   |
+| 270 Deg | ![270deg](https://github.com/yeri63-hp48g/Lissajous-Figures/blob/main/ratio1-1_fig4.png)   |
+| 360 Deg | ![360deg](https://github.com/yeri63-hp48g/Lissajous-Figures/blob/main/ratio1-1_fig5.png) |
