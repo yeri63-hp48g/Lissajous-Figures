@@ -9,3 +9,11 @@ The basic premise is generating these images using 2 sinusodial waves, both with
 To give depth to these normally static images, this program slowly shifts the position of one signal, making the image rotate clockwise and counterclockwise, updwards and downwards, all at the same time. The direction of movement is determined entirely by the observer, and which part of the figure is being tracked by the eyes.
 
 The application begins by displaying an initial a:b ratio, with a menu to add or delete either value. Pressing the Draw button then creates the Lissajouse Figure created by this ratio, and slowly rotates it. This continues until any key is pressed, to return back to the ratio screen, where a new value can be entered. 
+
+| Shift   | 1:1 Ratio | 
+| :-:     | :-:     |
+| 0 Deg   |     | 
+| 90 Deg  |     |
+| 180 Deg |     |
+| 270 Deg |     |
+| 360 Deg |     |
